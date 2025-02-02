@@ -52,6 +52,9 @@ const structuredData = {
 };
 
 export const metadata = {
+  verification: {
+    google: 'googled3abef38210a98f2',
+  },
   icons: {
     icon: '/vercel.svg',
     shortcut: '/vercel.svg',
