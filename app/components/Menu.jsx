@@ -66,8 +66,8 @@ const Menu = () => {
   };
 
   return (
-    <section id="layanan" className="py-16 bg-gradient-to-b from-gray-50 to-white">
-      <div className="container mx-auto px-4">
+    <section id="layanan" className="py-16 bg-gradient-to-b from-gray-50 to-white w-full overflow-x-hidden">
+      <div className="container mx-auto px-4 w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}

@@ -14,9 +14,9 @@ const Hero = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.8]);
   const textY = useTransform(scrollYProgress, [0, 1], [0, 100]);
   return (
-    <section ref={ref} id="beranda" className="relative h-screen flex items-center overflow-hidden">
+    <section ref={ref} id="beranda" className="relative h-screen w-full flex items-center overflow-hidden">
       <motion.div 
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 w-full h-full"
         style={{ opacity, scale }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70 z-10" />

@@ -12,7 +12,54 @@ const geistMono = Geist_Mono({
 });
 
 // Schema.org structured data for local business
-const structuredData = {
+const faqStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Berapa harga jasa penggilingan daging bakso di Malingping?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Harga jasa penggilingan daging bakso di Gilingan Bakso Mas Wandi Malingping mulai dari Rp 15.000/kg untuk penggilingan standar. Kami juga menyediakan paket lengkap termasuk bumbu dengan harga yang bersaing.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Apakah gilingan bakso Mas Wandi bersertifikat halal?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Ya, Gilingan Bakso Mas Wandi telah bersertifikat halal dan menggunakan mesin modern dengan standar higienis tinggi. Kami berkomitmen menjaga kualitas dan kehalalan produk sejak 2010.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Di mana lokasi Gilingan Bakso Mas Wandi di Malingping?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Gilingan Bakso Mas Wandi berlokasi strategis di Jl. Raya Ps. Malingping No.3, Malingping Selatan, Kec. Malingping, Kabupaten Lebak, Banten 42391. Mudah dijangkau dari pasar Malingping.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Apa saja layanan yang tersedia di Gilingan Bakso Mas Wandi?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Kami menyediakan jasa penggilingan daging premium, penjualan bumbu bakso spesial, dan paket lengkap bahan bakso. Semua menggunakan mesin modern dan dijamin kualitasnya.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Berapa lama proses penggilingan daging bakso?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Proses penggilingan daging bakso di tempat kami rata-rata memakan waktu 15-30 menit tergantung jumlah daging. Kami mengutamakan kualitas hasil gilingan yang halus dan higienis.'
+      }
+    }
+  ]
+};
+
+const businessStructuredData = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'Gilingan Bakso Mas Wandi Malingping #1 Sejak 2010',
@@ -87,13 +134,27 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  // Add structured data script to head
-  const structuredDataScript = {
-    __html: JSON.stringify(structuredData)
-  };
+  // Add structured data scripts to head
+  const structuredDataScripts = [
+    {
+      __html: JSON.stringify(businessStructuredData)
+    },
+    {
+      __html: JSON.stringify(faqStructuredData)
+    }
+  ];
 
   return (
     <html lang="id">
+      <head>
+        {structuredDataScripts.map((script, index) => (
+          <script
+            key={index}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={script}
+          />
+        ))}
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
