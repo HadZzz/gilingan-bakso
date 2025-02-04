@@ -104,17 +104,17 @@ export const metadata = {
   },
   icons: {
     icon: [
-      { url: '/vercel.svg', type: 'image/svg+xml' },
-      { url: '/vercel.svg', sizes: '16x16', type: 'image/svg+xml' },
-      { url: '/vercel.svg', sizes: '32x32', type: 'image/svg+xml' },
-      { url: '/vercel.svg', sizes: '96x96', type: 'image/svg+xml' }
+      { url: '/vercel.jpg', type: 'image/svg+xml' },
+      { url: '/vercel.jpg', sizes: '16x16', type: 'image/svg+xml' },
+      { url: '/vercel.jpgg', sizes: '32x32', type: 'image/svg+xml' },
+      { url: '/vercel.jpg', sizes: '96x96', type: 'image/svg+xml' }
     ],
-    shortcut: '/vercel.svg',
-    apple: '/vercel.svg',
+    shortcut: '/vercel.jpg',
+    apple: '/vercel.jpg',
     other: [
       {
         rel: 'mask-icon',
-        url: '/vercel.svg',
+        url: '/vercel.jpg',
         color: '#000000'
       }
     ]
