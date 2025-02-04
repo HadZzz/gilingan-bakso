@@ -103,9 +103,21 @@ export const metadata = {
     google: 'googled3abef38210a98f2',
   },
   icons: {
-    icon: '/vercel.svg',
+    icon: [
+      { url: '/vercel.svg', type: 'image/svg+xml' },
+      { url: '/vercel.svg', sizes: '16x16', type: 'image/svg+xml' },
+      { url: '/vercel.svg', sizes: '32x32', type: 'image/svg+xml' },
+      { url: '/vercel.svg', sizes: '96x96', type: 'image/svg+xml' }
+    ],
     shortcut: '/vercel.svg',
     apple: '/vercel.svg',
+    other: [
+      {
+        rel: 'mask-icon',
+        url: '/vercel.svg',
+        color: '#000000'
+      }
+    ]
   },
   title: 'Gilingan Bakso Mas Wandi Malingping | Jasa Penggilingan Daging Premium #1',
   description: '🥇 Gilingan Bakso Mas Wandi Malingping - Pusat jasa penggilingan daging bakso premium dan bumbu bakso terlengkap di Malingping. ✓ Halal ✓ Higienis ✓ Mesin Modern ✓ Berpengalaman sejak 2010. Harga mulai Rp 15.000/kg. Kunjungi kami di Jl. Raya Ps. Malingping No.3 atau Hubungi +62 812-3456-7890 untuk info lengkap.',
