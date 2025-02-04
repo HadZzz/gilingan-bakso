@@ -29,7 +29,6 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Link href="#beranda" className="text-gray-900 hover:text-orange-600 transition-colors">Beranda</Link>
-            <Link href="#layanan" className="text-gray-900 hover:text-orange-600 transition-colors">Layanan</Link>
             <Link href="#tentang" className="text-gray-900 hover:text-orange-600 transition-colors">Tentang Kami</Link>
             <Link href="#lokasi" className="text-gray-900 hover:text-orange-600 transition-colors">Lokasi</Link>
           </div>
@@ -69,13 +68,6 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Beranda
-            </Link>
-            <Link
-              href="#layanan"
-              className="block px-3 py-2 rounded-md text-gray-900 hover:text-orange-600 hover:bg-gray-50 transition-all duration-200"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Layanan
             </Link>
             <Link
               href="#tentang"

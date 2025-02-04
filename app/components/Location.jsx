@@ -41,8 +41,7 @@ const Location = () => {
             <div className="mb-6">
               <h4 className="font-semibold text-gray-800 mb-2">Jam Operasional:</h4>
               <ul className="text-gray-600">
-                <li>Senin - Jumat: 09:00 - 21:00</li>
-                <li>Sabtu - Minggu: 08:00 - 22:00</li>
+                <li>Setiap Hari: 05:00 - 10:00</li>
               </ul>
             </div>
             <a
@@ -62,7 +61,7 @@ const Location = () => {
             className="h-[400px] rounded-lg overflow-hidden shadow-lg"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.298868552529!2d106.31382661477226!3d-6.761229395218578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e428e2f95555555%3A0x4444444444444444!2sGilingan%20Bakso%20Mas%20Wandi!5e0!3m2!1sen!2sid!4v1620000000000!5m2!1sen!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.2988685525293!2d106.31382661477226!3d-6.761229395218578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e428e2f95555555%3A0x4444444444444444!2sGilingan%20Bakso%20Mas%20Wandi!5e0!3m2!1sen!2sid!4v1707050184!5m2!1sen!2sid"
               width="100%"
               height="100%"
               style={{ border: 0 }}

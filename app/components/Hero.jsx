@@ -44,7 +44,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600">
-              Gilingan Bakso & Bumbu Mas Wandi
+              Gilingan Bakso Ikan dan Daging Mas Wandi
             </h1>
             </motion.div>
             <motion.p 
@@ -53,15 +53,15 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Jasa Penggilingan Daging Premium & Supplier Bumbu Bakso Berkualitas
+              Jasa Penggilingan Daging dan Ikan Premium Berkualitas
             </motion.p>
             <motion.a
-              href="#layanan"
+              href="#tentang"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-700 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-orange-600 hover:to-orange-800 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
             >
-              Lihat Layanan
+              Tentang Kami
             </motion.a>
           </motion.div>
         </div>

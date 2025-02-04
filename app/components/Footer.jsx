@@ -15,7 +15,7 @@ const Footer = () => {
           >
             <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent">Gilingan Bakso Mas Wandi</h3>
             <p className="text-gray-600">
-              Melayani jasa penggilingan daging premium dan penjualan bumbu bakso berkualitas di Malingping sejak 2010.
+              Melayani jasa penggilingan daging dan ikan premium berkualitas di Malingping sejak tahun 90 an.
             </p>
           </motion.div>
 
@@ -33,9 +33,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#layanan" className="text-gray-400 hover:text-orange-500 transition-colors">
-                  Layanan
-                </Link>
+
               </li>
               <li>
                 <Link href="#tentang" className="text-gray-400 hover:text-orange-500 transition-colors">
@@ -59,7 +57,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Kontak</h4>
             <ul className="space-y-2 text-gray-600">
               <li>Jl. Raya Ps. Malingping No.3, Malingping Sel., Kec. Malingping, Kabupaten Lebak, Banten 42391</li>
-              <li>Telp: +62 812-3456-7890</li>
+              <li>Telp: +62 858-7612-0167</li>
               <li>Email: gilinganbaksomaswandi@gmail.com</li>
             </ul>
           </motion.div>

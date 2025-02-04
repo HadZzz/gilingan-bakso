@@ -45,15 +45,15 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent">
-              Tentang Gilingan Bakso Mas Wandi
+              Tentang Gilingan Bakso Ikan dan Daging Mas Wandi
             </h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Sejak tahun 2010, Gilingan Bakso Mas Wandi telah menjadi mitra terpercaya bagi pedagang bakso di Malingping. 
-              Kami menyediakan jasa penggilingan daging premium menggunakan mesin modern dan higienis, serta memproduksi bumbu bakso berkualitas.
+              Sejak tahun 90 an, Gilingan Bakso Mas Wandi telah menjadi mitra terpercaya bagi pedagang bakso di Malingping. 
+              Kami menyediakan jasa penggilingan daging dan ikan premium menggunakan mesin modern dan higienis dengan harga gilingan baut Rp 5.000 per kg.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              Komitmen kami adalah mendukung kesuksesan bisnis bakso Anda dengan menyediakan bahan-bahan berkualitas tinggi, 
-              bumbu rahasia yang lezat, dan layanan konsultasi profesional untuk mengembangkan usaha bakso.
+              Buka setiap hari dari jam 5 sampai jam 10 pagi. Komitmen kami adalah mendukung kesuksesan bisnis bakso Anda dengan menyediakan
+              layanan penggilingan berkualitas tinggi untuk membantu mengembangkan usaha bakso Anda.
             </p>
 
             <div className="grid grid-cols-2 gap-6">
@@ -63,7 +63,7 @@ const About = () => {
                 transition={{ duration: 0.4, delay: 0.4 }}
                 className="text-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1"
               >
-                <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent mb-2">13+</h3>
+                <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent mb-2">30+</h3>
                 <p className="text-gray-600">Tahun Melayani</p>
               </motion.div>
 
@@ -73,7 +73,7 @@ const About = () => {
                 transition={{ duration: 0.4, delay: 0.6 }}
                 className="text-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1"
               >
-                <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent mb-2">500+</h3>
+                <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent mb-2">20+</h3>
                 <p className="text-gray-600">Pedagang Bakso</p>
               </motion.div>
             </div>
