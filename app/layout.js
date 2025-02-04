@@ -113,23 +113,27 @@ export const metadata = {
   },
   icons: {
     icon: [
-      { url: "/vercel.jpg", type: "image/jpeg" }, // Ubah type menjadi image/jpeg
-      { url: "/vercel.jpg", sizes: "16x16", type: "image/jpeg" },
-      { url: "/vercel.jpg", sizes: "32x32", type: "image/jpeg" },
-      { url: "/vercel.jpg", sizes: "96x96", type: "image/jpeg" },
+      { url: "/images/logo.jpg", type: "image/jpeg" },
+      { url: "/images/logo.jpg", sizes: "16x16", type: "image/jpeg" },
+      { url: "/images/logo.jpg", sizes: "32x32", type: "image/jpeg" },
+      { url: "/images/logo.jpg", sizes: "96x96", type: "image/jpeg" },
     ],
-    shortcut: "/vercel.jpg",
-    apple: "/vercel.jpg",
+    shortcut: "/images/logo.jpg",
+    apple: "/images/logo.jpg",
     other: [
       {
         rel: "mask-icon",
-        url: "/vercel.jpg",
+        url: "/images/logo.jpg",
         color: "#000000",
       },
     ],
   },
-  title:
-    "Gilingan Bakso Mas Wandi Malingping | Jasa Penggilingan Daging Premium #1",
+  metadataBase: new URL("https://gilinganbaksomaswandi.com"), // Tambahkan ini
+  title: {
+    default:
+      "Gilingan Bakso Mas Wandi Malingping | Jasa Penggilingan Daging Premium #1",
+    template: "%s | Gilingan Bakso Mas Wandi",
+  },
   description:
     "🥇 Gilingan Bakso Mas Wandi Malingping - Pusat jasa penggilingan daging bakso premium dan bumbu bakso terlengkap di Malingping. ✓ Halal ✓ Higienis ✓ Mesin Modern ✓ Berpengalaman sejak 2010. Harga mulai Rp 15.000/kg. Kunjungi kami di Jl. Raya Ps. Malingping No.3 atau Hubungi +62 812-3456-7890 untuk info lengkap.",
   keywords: [
@@ -158,14 +162,14 @@ export const metadata = {
       "Gilingan Bakso Mas Wandi Malingping | Jasa Penggilingan Daging Premium #1",
     description:
       "Gilingan Bakso Mas Wandi Malingping - Pusat jasa penggilingan daging bakso premium dan bumbu bakso terlengkap di Malingping sejak 2010. Kunjungi kami di Jl. Raya Ps. Malingping No.3.",
-    url: "https://baksomaswandi.com",
+    url: "https://gilinganbaksomaswandi.com",
     siteName: "Gilingan Bakso Mas Wandi",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/images/logo.jpg", // Gunakan logo yang sama
         width: 1200,
         height: 630,
-        alt: "Bakso Mas Wandi Malingping",
+        alt: "Gilingan Bakso Mas Wandi Malingping",
       },
     ],
     locale: "id_ID",
