@@ -57,7 +57,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Kontak</h4>
             <ul className="space-y-2 text-gray-600">
               <li>Jl. Raya Ps. Malingping No.3, Malingping Sel., Kec. Malingping, Kabupaten Lebak, Banten 42391</li>
-              <li>Telp: +62 858-7612-0167</li>
+              <li>Telp: +62 856-9543-3184</li>
               <li>Email: gilinganbaksomaswandi@gmail.com</li>
             </ul>
           </motion.div>
